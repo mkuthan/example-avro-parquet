@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "enums",
+  "namespace": "example",
+  "fields": [
+    {
+      "name": "field1",
+      "type": {
+        "type": "enum",
+        "name": "letters",
+        "symbols": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    }
+  ]
+}

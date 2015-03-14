@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "arrays",
+  "namespace": "example",
+  "fields": [
+    {
+      "name": "field1",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "field2",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "field3",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}

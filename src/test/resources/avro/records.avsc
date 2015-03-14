@@ -1,0 +1,25 @@
+{
+  "type": "record",
+  "name": "records",
+  "namespace": "example",
+  "fields": [
+    {
+      "name": "field1",
+      "type": {
+        "type": "record",
+        "name": "subrecord",
+        "namespace": "example",
+        "fields": [
+          {
+            "name": "subfield1",
+            "type": "string"
+          },
+          {
+            "name": "subfield2",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

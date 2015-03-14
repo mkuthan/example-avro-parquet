@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "maps",
+  "namespace": "example",
+  "fields": [
+    {
+      "name": "field1",
+      "type": {
+        "type": "map",
+        "values": "string"
+      }
+    },
+    {
+      "name": "field2",
+      "type": {
+        "type": "map",
+        "values": "string"
+      }
+    },
+    {
+      "name": "field3",
+      "type": {
+        "type": "map",
+        "values": "string"
+      }
+    }
+  ]
+}

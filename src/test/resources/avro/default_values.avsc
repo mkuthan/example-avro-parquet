@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "default_values",
+  "namespace": "example",
+  "fields": [
+    {
+      "name": "field1",
+      "type": "string",
+      "default": "any default value"
+    },
+    {
+      "name": "field2",
+      "type": "string",
+      "default": "any default value"
+    }
+  ]
+}
